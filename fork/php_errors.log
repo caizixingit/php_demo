@@ -1,0 +1,16 @@
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 16
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  fwrite(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 17
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 18
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  fclose(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 19
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 16
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  fwrite(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 17
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 18
+[08-Jul-2015 11:07:39 Asia/Shanghai] PHP Warning:  fclose(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 19
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 16
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  fwrite(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 17
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 18
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  fclose(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 19
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 16
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  fwrite(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 17
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  flock(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 18
+[08-Jul-2015 11:07:46 Asia/Shanghai] PHP Warning:  fclose(): 5 is not a valid stream resource in /home/work/caizixin/test/fork/test.php on line 19
