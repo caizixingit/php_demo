@@ -1,0 +1,9 @@
+[07-Jul-2015 16:21:33 Asia/Shanghai] PHP Fatal error:  Using $this when not in object context in /home/work/caizixin/Algorithms/quick-sort.php on line 17
+[07-Jul-2015 16:21:51 Asia/Shanghai] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home/work/caizixin/Algorithms/quick-sort.php on line 5
+[07-Jul-2015 16:22:27 Asia/Shanghai] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/work/caizixin/Algorithms/quick-sort.php on line 17
+[07-Jul-2015 16:22:58 Asia/Shanghai] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/work/caizixin/Algorithms/quick-sort.php on line 17
+[07-Jul-2015 16:23:36 Asia/Shanghai] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/work/caizixin/Algorithms/quick-sort.php on line 17
+[17-Jul-2015 16:31:11 Asia/Shanghai] PHP Warning:  Missing argument 1 for Resolve::resolve(), called in /home/work/caizixin/Algorithms/resolve.php on line 56 and defined in /home/work/caizixin/Algorithms/resolve.php on line 5
+[17-Jul-2015 16:32:03 Asia/Shanghai] PHP Warning:  Missing argument 1 for Resolve::resolve(), called in /home/work/caizixin/Algorithms/resolve.php on line 56 and defined in /home/work/caizixin/Algorithms/resolve.php on line 5
+[17-Jul-2015 16:32:17 Asia/Shanghai] PHP Warning:  Missing argument 1 for Resolve::resolve(), called in /home/work/caizixin/Algorithms/resolve.php on line 56 and defined in /home/work/caizixin/Algorithms/resolve.php on line 5
+[17-Jul-2015 16:32:40 Asia/Shanghai] PHP Warning:  Missing argument 1 for Resolve::resolve(), called in /home/work/caizixin/Algorithms/resolve.php on line 56 and defined in /home/work/caizixin/Algorithms/resolve.php on line 5

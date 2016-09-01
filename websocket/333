@@ -1,0 +1,536 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Mar 2015 06:29:09 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="Bookmark"  type="image/x-icon"  href="http://img.haima.me/images/freeapp/wwwhaimawan/logo_icon.ico"/>
+<link rel="icon"  type="image/x-icon" href="http://img.haima.me/images/freeapp/wwwhaimawan/logo_icon.ico" />
+<link rel="shortcut icon"  type="image/x-icon" href="http://img.haima.me/images/freeapp/wwwhaimawan/logo_icon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>分类视频</title>
+<link href="/css/css.css" rel="stylesheet" type="text/css">
+<script src="/js/jquery-1.7.1.min.js"></script>
+<script src="/js/comment.js"></script>
+<script>
+$(function(){
+	$(".game_tab .right a").bind("click",function(){
+		$(this).addClass("cur").siblings().removeClass("cur");
+		})
+	$(".game_type .title ul li").bind("click",function(){
+		$(this).addClass("cur").siblings().removeClass("cur");
+		})
+	$(".game_typelist dl:nth-child(4n)").css("margin-right","0px");
+	$(".link_word ul li:nth-child(6n)").css("margin","0px");	
+	$(".duilian_adv_left").css({ "left": "10px", "top": "280px" });
+	$(".duilian_adv_right").css({ "right": "10px", "top": "280px" });
+	$(".closed").click(function(){
+		$(".duilian_adv_left").remove();
+		$(".duilian_adv_right").remove();
+		})
+	$(".zt_list dl:nth-child(3n)").css("margin-right","0px")	
+
+	})
+</script>
+</head>
+<body>
+<div class="top"></div>
+<div class="top1">
+<div class="top_box">
+    	<div class="t_menu">
+        	<a href="http://droid4x.haimawan.com" target="_blank">海马玩模拟器</a>
+            <a href="http://zhushou.haimawan.com" target="_blank">苹果助手</a>
+            <a href="http://game.haimawan.com/?t=3" target="_blank">安卓游戏</a>
+            <a href="http://game.haimawan.com/?t=0" target="_blank">苹果游戏</a>
+        </div>
+        <div class="t_info"><a href="/fuli" target="_blank">注册海马玩，热门网游打折玩，独家礼包免费拿！</a></div>
+        <div class="t_login">
+        	<a href="#" class="reg">注册</a>
+            <a href="#" class="login">登录</a>
+        </div>
+    </div>
+</div>
+
+<div class="adv_bg">
+	    <div class="top_banner">
+		        <img src="http://121.43.155.188/images/hmw/banner/201503/1/a7555bd7-999f-4739-9050-f5c9cfbdbeb3.jpg" />
+		    </div>
+
+
+
+
+
+
+
+
+    		<div class="duilian_adv_left"><div><span class="closed" onclick="closeAdv()"></span><a href="http://baidu.com"><img src="http://121.43.155.188/images/hmw/banner/201503/1/9bf8fdcd-9471-4dac-9bb0-79a7b7e34ad3.jpg" /></a></div></div>
+	<div class="duilian_adv_right"><div><span class="closed" onclick="closeAdv()"></span><a href="http://baidu.com"><img src="http://121.43.155.188/images/hmw/banner/201503/1/9bf8fdcd-9471-4dac-9bb0-79a7b7e34ad3.jpg" /></a></div></div>
+	
+	<div class="main clearfix">
+            	<div class="index_head" style="height:62px; background:#fff;">
+        	<div class="index_head_warp" style="height:62px;">
+            <div class="head">
+            		<a class="logo" href="http://www.haimawan.com"></a>
+                	<div class="menu">
+                    	<a href="/home/index"  target="_blank">首页</a>
+						                        <a href="/Category/getCategory?category=1" class='cur'>新游</a>
+																		<a href="/Category/getCategory?category=2"  target="_blank">攻略</a>
+																		<a href="/Category/getCategory?category=3"  target="_blank">达人</a>
+																		<a href="/Category/getCategory?category=4"  target="_blank">娱乐</a>
+						                        <a href="/GiftList" target="_blank">礼包</a>
+                        <a href="/ActivityList" target="_blank">活动</a>
+													<a href="/topic" target="_blank">专题</a>
+						                        <!--
+						<a href="#" target="_blank">排行</a>
+						-->
+                    </div>
+                </div>
+            
+            
+            </div>
+        	
+        </div>
+
+		        <div class="main_box clearfix">
+        	<div class="location"><h5>新游</h5></div>
+            <div class="xy_img">
+								</a>
+            </div>
+            <div class="game_tab clearfix">
+				<div class="left">游戏分类：</div>
+				<div class='right'>
+																		<a class="cur" href="//Category/getCategory?category=1&gameCategory=0">全部</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7019">文字游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7011">音乐游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7012">智力游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7013">赛车游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7014">角色扮演</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7015">模拟游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7016">体育游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7017">策略游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7018">小游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7010">儿童游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7009">家庭游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7001">动作游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7002">探险游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7003">街机游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7004">桌面游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7005">扑克牌游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7006">娱乐场游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7007">骰子游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=7008">教育游戏</a>
+																								<a href="//Category/getCategory?category=1&gameCategory=3">3</a>
+															</div>
+			</div>
+			<div class="game_type">
+            	<div class="title">
+                	<ul>
+						                    	<li class="cur">
+						                        <a href="//Category/getCategory?category=1&order=recommend">按推荐排序</a></li>
+												<li>
+													<a href="//Category/getCategory?category=1&order=time">按更新时间排序</a></li>
+												<li>
+						                        <a href="//Category/getCategory?category=1&order=hot">按热度排序</a></li>
+
+                    </ul>
+                </div>
+                <div class="g_video_list game_typelist clearfix">
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3063" class="video_mask"></a>
+                                <span class="video_time">0:01:05</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-29/8F1972A5F42E5D789C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>龙之守护-2015127</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3072" class="video_mask"></a>
+                                <span class="video_time">0:01:34</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-29/15EB8304586732839C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>暗黑女王20150115</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3090" class="video_mask"></a>
+                                <span class="video_time">0:00:42</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/E596BAE3ED8399479C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《英雄之剑》第四职业枪械师视频首曝</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3091" class="video_mask"></a>
+                                <span class="video_time">0:01:11</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/47E4EB01ACA8BBCB9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>众神之光-2015114</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3097" class="video_mask"></a>
+                                <span class="video_time">0:01:26</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/EE56028E53ED9DA09C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《英雄之剑》宣传视频2</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3099" class="video_mask"></a>
+                                <span class="video_time">0:05:52</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/E740BEFABD24AA909C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>一刀流评测视频</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3108" class="video_mask"></a>
+                                <span class="video_time">0:01:32</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/5D85D812EADD80F19C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>三国合战20150113</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 13:48:09</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3375" class="video_mask"></a>
+                                <span class="video_time">0:04:29</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-04/0DB768FDF584E7599C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>天下HD新手试玩展示视频</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 10:59:38</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3225" class="video_mask"></a>
+                                <span class="video_time">0:01:48</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-09/6FCC816A9313C8A99C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[宣传片]全民突击核心宣传视频</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 10:59:30</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3056" class="video_mask"></a>
+                                <span class="video_time">0:00:40</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-29/3036E72315BDE0329C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>圣斗士星矢20150116</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 10:59:22</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3057" class="video_mask"></a>
+                                <span class="video_time">0:01:08</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-29/056A5B4C05BC20939C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>少年三国志20151022</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-25 10:59:22</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3436" class="video_mask"></a>
+                                <span class="video_time">0:08:25</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/0B97630672F113319C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>天天酷跑普通模式试玩视频</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3438" class="video_mask"></a>
+                                <span class="video_time">0:01:17</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/588CAF69990A119D9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>神秘奇幻解密游戏《纪念碑谷》被遗忘的海岸 最新章节先睹为快</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3439" class="video_mask"></a>
+                                <span class="video_time">0:01:16</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/BB71B0C0DF94AD0D9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>你所看到世界震撼的另一面《纪念碑谷》</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3441" class="video_mask"></a>
+                                <span class="video_time">0:01:31</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/FE5B15CDC9EEBC249C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《纪念碑谷》一花一世界 一木一浮生预告片</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3442" class="video_mask"></a>
+                                <span class="video_time">0:00:44</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/218233DF2B185A749C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《纪念碑谷》迷失的世界中秘密混淆你的视觉</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3450" class="video_mask"></a>
+                                <span class="video_time">0:03:28</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/9D446DCCFC0C00429C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>天天跑酷12月神秘角色蔷薇公主试玩</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3452" class="video_mask"></a>
+                                <span class="video_time">0:03:36</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-03/C752111827E1D7B69C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[评测]天天酷跑新版本大冒险评测</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:55</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3318" class="video_mask"></a>
+                                <span class="video_time">0:03:13</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-05/B3E313F3D97541DD9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《保卫萝卜2：极地冒险》评测：萌系塔防，可爱依旧1</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:49</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3319" class="video_mask"></a>
+                                <span class="video_time">0:00:44</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-05/E48331E891538E369C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《保卫萝卜2：极低冒险》手机游戏介绍</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:49</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3217" class="video_mask"></a>
+                                <span class="video_time">0:01:21</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-09/E0C7B2135DACD7019C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[预告]全民突击智取威虎山预告</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:44</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3183" class="video_mask"></a>
+                                <span class="video_time">0:01:31</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-09/9B6D5B5257109DB49C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《乱斗西游》全新时装系统展示</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:42</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3184" class="video_mask"></a>
+                                <span class="video_time">0:01:16</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-09/C2A6D75523A3656A9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>乱斗西游宣传视频</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:42</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3144" class="video_mask"></a>
+                                <span class="video_time">0:00:14</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-23/59E9EF784797BFA69C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[宣传]刀塔传奇 WCA 唯一手游项目</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:40</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3145" class="video_mask"></a>
+                                <span class="video_time">0:01:32</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-23/FD4652F8A8A4215E9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[宣传]刀塔传奇 GOOGLE PLAY 推广版</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:40</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3146" class="video_mask"></a>
+                                <span class="video_time">0:00:50</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-23/63BA90F71920FBD39C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[宣传]《刀塔传奇》2月新英雄龙骑士</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:40</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3132" class="video_mask"></a>
+                                <span class="video_time">0:01:12</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/603F9612553CCB6D9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>超级英雄-2015113-002</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3133" class="video_mask"></a>
+                                <span class="video_time">0:01:30</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/E784A0949F1600579C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《全民奇迹》巴洛克王室</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3134" class="video_mask"></a>
+                                <span class="video_time">0:01:13</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/B8EDAD33200779BD9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>暗黑黎明</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3135" class="video_mask"></a>
+                                <span class="video_time">0:00:27</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/0A3E57E9978E40F59C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《全民奇迹》PK</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3136" class="video_mask"></a>
+                                <span class="video_time">0:00:39</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-01-16/B54930809A97000A9C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>《三国威力加强版》开场动画</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+								
+                        	<dl>
+                            	<a href="/VideoDetail/GetVideoDetail?id=3137" class="video_mask"></a>
+                                <span class="video_time">0:10:31</span>
+                            	<div class="video_box">
+                                	<img src="http://img.bokecc.com/comimage/3DB296A5049D26F8/2015-03-23/5C3CCA1433B2B4A99C33DC5901307461-1/0.jpg" />
+                                </div>
+                            	<dt>[远征]《刀塔传奇》远征35 意识已经模糊</dt>
+                                <dd><span class="play_sl">0</span><span class="zan_sl">0</span></dd>
+                                <dd><span>更新时间：2015-03-24 14:28:39</span></dd>
+                            </dl>
+							                </div>
+						<div class='pages'>
+<span class='pageHome'>首页</span>
+<span class='pagePre'>上一页</span>
+<span class='pageCurrent'>1</span>
+<a class='pageNum' href="//Category/getCategory?category=1&pageNo=2">2</a>
+<a class='pageNum' href="//Category/getCategory?category=1&pageNo=3">3</a>
+<a class='pageNum' href="//Category/getCategory?category=1&pageNo=4">4</a>
+<a class='pageNext' href="//Category/getCategory?category=1&pageNo=2">下一页</a>
+<a class='pageEnd' href="//Category/getCategory?category=1&pageNo=4">尾页</a>
+</div>
+
+            </div>
+        </div>
+				<!--
+  <div class="link_img clearfix">
+        	<ul class="clearfix">
+            	<li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li>
+            	<li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li><li><a href="#"><img src="/images/logo.png" /></a></li>
+            </ul>
+        </div>
+  <div class="link_word clearfix">
+        	<ul class="clearfix">
+            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+                            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+            	<li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li><li><a href="#">友情链接词</a></li>
+
+            </ul>
+	</div>
+-->
+      
+  </div>
+</div>
+<div class="foot">Copyright© <a href="#">2014 北京海誉动想科技有限公司.</a> All Rights Reserved. 版权所有.  京ICP备14013201号 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1253659236'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1253659236%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<script src="/js/jquery.slides.js" type="text/javascript"></script>
+
+</body>
+</html>

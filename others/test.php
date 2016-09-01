@@ -1,37 +1,20 @@
-<?php  
-class A{
-	public $arr = array();
-	public function __construct()
-	{
-		$this->arr[] = $this;	
-	}
-
-	public static function bbb()
-	{
-		return 'bbb';
-	}
-
-	public function getName()
-	{
-		foreach($this->arr as $one)
-		{
-			var_dump(get_class($this));
-		}
-	}
-
-}
-
-class B extends A
+<?php
+class A
 {
-	public function __construct()
+	public static $ins = ['a' => 'a1', 'b' => 'b1'];
+	public static function getIns()
 	{
-		parent::__construct();
-	}
-
-	public function test()
-	{
-		unset($this->arr);
+		return $ins['a'];	
 	}
 }
-$o = new B();
-$o->test();
+
+$arr = ['ABC', 'DDD'];
+
+array_walk($arr, 'test', 'abc');
+
+function test(&$value, $key, $ext)
+{
+	$value .= $key. $ext;
+}
+
+var_dump($arr);

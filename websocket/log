@@ -1,0 +1,80 @@
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=66): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=43): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=96): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=46): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=22): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=83): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=13): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=40): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=34): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=90): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=88): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=25): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=32): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=100): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=55): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=3): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=14): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=9): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=56): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=70): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=35): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=52): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=78): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=68): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=93): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=98): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=77): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=6): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=94): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=95): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=15): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=11): failed to open stream: HTTP request failed!  in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=97): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=48): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=68): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=93): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=2): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=16): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=user&room=child1&game=24): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 11
+
+Warning: file_get_contents(http://172.16.12.181:55151/List.php?type=room&room=child1&game=55): failed to open stream: Connection timed out in /home/work/caizixin/websocket/httppress.php on line 22
