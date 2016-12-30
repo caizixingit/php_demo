@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ddbff3a353adfd28f269ba53049fa26b",
+    "packages": [
+        {
+            "name": "keaixiaou/zphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/keaixiaou/zphp.git",
+                "reference": "68753e00502e835a6cc72eb1a6778d17a2769e2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/keaixiaou/zphp/zipball/68753e00502e835a6cc72eb1a6778d17a2769e2e",
+                "reference": "68753e00502e835a6cc72eb1a6778d17a2769e2e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": ">=1.8.0,<2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZPHP\\": "ZPHP"
+                }
+            },
+            "authors": [
+                {
+                    "name": "huaerjie",
+                    "email": "286252682@qq.com",
+                    "homepage": "https://github.com/keaixiaou"
+                }
+            ],
+            "description": "Asynchronous non-blocking framework based on ZPHP transformation",
+            "support": {
+                "source": "https://github.com/keaixiaou/zphp/tree/master",
+                "issues": "https://github.com/keaixiaou/zphp/issues"
+            },
+            "time": "2016-11-18 02:22:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "keaixiaou/zphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

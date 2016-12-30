@@ -1,20 +1,17 @@
 <?php
-class A
+
+function getParam($param, $key)
 {
-	public static $ins = ['a' => 'a1', 'b' => 'b1'];
-	public static function getIns()
+	$list = explode('.', $key);
+	$tmp = $list;
+	foreach($list as $one)
 	{
-		return $ins['a'];	
+		if(!isset($param[$one]))
+		{
+			break;
+		}
+
+
 	}
 }
 
-$arr = ['ABC', 'DDD'];
-
-array_walk($arr, 'test', 'abc');
-
-function test(&$value, $key, $ext)
-{
-	$value .= $key. $ext;
-}
-
-var_dump($arr);
