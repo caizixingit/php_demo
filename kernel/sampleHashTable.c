@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 typedef struct _Bucket
 {
@@ -177,16 +178,17 @@ typedef struct _HashTable
 
 int main(int argv, char** argc)
 {
-		printf("0");
-	HashTable* ht = (HashTable *)malloc(sizeof(HashTable));
-	printf("1");
-	hash_init(ht, 2);
-	printf("2");
-	hash_add(ht, "caizixin", "zixin");
-	//hash_add(ht, "caiziwen", "ziwen");
-	//hash_add(ht, "caiweihua", "weihua");
-printf("3");
-	void *name = NULL;
-	hash_get(ht, "caizixin", name);
-	printf("%s", (char *)name);
+		printf("0\n");
+//fflush(stdout);
+	//HashTable* ht = (HashTable*)malloc(sizeof(HashTable));
+//	printf("1\n");
+// 	hash_init(ht, 2);
+// 	printf("2\n");
+// 	hash_add(ht, "caizixin", "zixin");
+// 	//hash_add(ht, "caiziwen", "ziwen");
+// 	//hash_add(ht, "caiweihua", "weihua");
+// printf("3\n");
+// 	void *name = NULL;
+// 	hash_get(ht, "caizixin", name);
+// 	printf("%s", (char *)name);
 }
