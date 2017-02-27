@@ -1,0 +1,6 @@
+U    frontend/models/User.php
+U    frontend/components/GlobalInfo.php
+U    frontend/views/error/adviser.tpl
+U    frontend/models/User.php
+U    frontend/components/MyController.php
+U    frontend/components/Output.php
